@@ -34,11 +34,12 @@ public final class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new ItemCollectedListener(),this );
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(),this );
 
-        Bossbar.setItem();
+
 
         if (AllItemsItem.getCurrentItem() == null){
             AllItemsItem.generateCurrentItem();
         }
+        Bossbar.setItem();
 
 
 
