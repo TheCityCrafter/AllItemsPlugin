@@ -1,0 +1,11 @@
+name: AllItems
+version: '1.0'
+main: de.thecitycrafter.allItems.Main
+api-version: '1.21'
+commands:
+  menu:
+    description: "Opens Item Inventory"
+    usage: /<command> [<page>]
+  skip:
+    description: "Skip current Item"
+    usage: /<command>
